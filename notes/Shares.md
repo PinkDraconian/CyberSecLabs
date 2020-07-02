@@ -1,8 +1,8 @@
 ---
-tags: [Beginner, Linux]
+tags: [Beginner, Linux, Video]
 title: Shares
 created: '2020-05-25T19:25:40.092Z'
-modified: '2020-05-25T20:19:55.414Z'
+modified: '2020-07-02T11:49:42.398Z'
 ---
 
 # Shares

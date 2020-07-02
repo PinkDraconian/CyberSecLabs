@@ -1,8 +1,8 @@
 ---
-tags: [Beginner, Linux]
+tags: [Beginner, Linux, Video]
 title: CMS
 created: '2020-07-02T07:29:14.381Z'
-modified: '2020-07-02T08:17:51.922Z'
+modified: '2020-07-02T10:34:35.993Z'
 ---
 
 # CMS
