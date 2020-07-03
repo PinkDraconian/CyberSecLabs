@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1593795158" profile_name="Intense scan, all TCP ports" xmloutputversion="1.04" scanner="nmap" version="7.80" startstr="Fri Jul  3 18:52:38 2020" args="nmap -p 1-65535 -T4 -A -v 172.31.1.5"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-03 18:52 CEST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 18:52
+Completed NSE at 18:52, 0.00s elapsed
+Initiating NSE at 18:52
+Completed NSE at 18:52, 0.00s elapsed
+Initiating NSE at 18:52
+Completed NSE at 18:52, 0.00s elapsed
+Initiating Ping Scan at 18:52
+Scanning 172.31.1.5 [4 ports]
+Completed Ping Scan at 18:52, 0.21s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 18:52
+Completed Parallel DNS resolution of 1 host. at 18:52, 0.03s elapsed
+Initiating SYN Stealth Scan at 18:52
+Scanning 172.31.1.5 [65535 ports]
+Discovered open port 80/tcp on 172.31.1.5
+Discovered open port 22/tcp on 172.31.1.5
+SYN Stealth Scan Timing: About 5.64% done; ETC: 19:01 (0:08:39 remaining)
+SYN Stealth Scan Timing: About 12.75% done; ETC: 19:00 (0:06:57 remaining)
+SYN Stealth Scan Timing: About 19.02% done; ETC: 19:00 (0:06:27 remaining)
+SYN Stealth Scan Timing: About 26.24% done; ETC: 19:00 (0:05:57 remaining)
+SYN Stealth Scan Timing: About 34.47% done; ETC: 19:00 (0:04:58 remaining)
+SYN Stealth Scan Timing: About 42.36% done; ETC: 19:00 (0:04:14 remaining)
+SYN Stealth Scan Timing: About 50.86% done; ETC: 18:59 (0:03:30 remaining)
+SYN Stealth Scan Timing: About 58.95% done; ETC: 18:59 (0:02:52 remaining)
+SYN Stealth Scan Timing: About 66.86% done; ETC: 18:59 (0:02:17 remaining)
+SYN Stealth Scan Timing: About 76.06% done; ETC: 18:59 (0:01:37 remaining)
+SYN Stealth Scan Timing: About 83.84% done; ETC: 18:59 (0:01:05 remaining)
+SYN Stealth Scan Timing: About 89.59% done; ETC: 18:59 (0:00:43 remaining)
+Completed SYN Stealth Scan at 18:59, 403.96s elapsed (65535 total ports)
+Initiating Service scan at 18:59
+Scanning 2 services on 172.31.1.5
+Completed Service scan at 18:59, 6.23s elapsed (2 services on 1 host)
+Initiating OS detection (try #1) against 172.31.1.5
+adjust_timeouts2: packet supposedly had rtt of -93729 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -93729 microseconds.  Ignoring time.
+Retrying OS detection (try #2) against 172.31.1.5
+Retrying OS detection (try #3) against 172.31.1.5
+adjust_timeouts2: packet supposedly had rtt of -142369 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -142369 microseconds.  Ignoring time.
+Retrying OS detection (try #4) against 172.31.1.5
+Retrying OS detection (try #5) against 172.31.1.5
+adjust_timeouts2: packet supposedly had rtt of -115954 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of -115954 microseconds.  Ignoring time.
+Initiating Traceroute at 18:59
+Completed Traceroute at 18:59, 0.11s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 18:59
+Completed Parallel DNS resolution of 2 hosts. at 18:59, 0.04s elapsed
+NSE: Script scanning 172.31.1.5.
+Initiating NSE at 18:59
+Completed NSE at 18:59, 3.38s elapsed
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.45s elapsed
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Nmap scan report for 172.31.1.5
+Host is up (0.11s latency).
+Not shown: 65533 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 9e:84:e4:df:52:83:55:3f:90:43:d1:8e:4a:18:8b:0c (RSA)
+|   256 f6:1a:89:b2:ca:57:7a:47:be:88:9b:3e:8f:e8:52:98 (ECDSA)
+|_  256 01:f2:94:0a:d3:54:52:15:87:ae:73:bc:4d:70:6e:90 (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: HEAD GET OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Future Design
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=7/3%OT=22%CT=1%CU=32520%PV=Y%DS=2%DC=T%G=Y%TM=5EFF6408
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=A)SEQ(
+OS:SP=104%GCD=1%ISR=107%TI=Z%CI=Z%TS=A)OPS(O1=M54EST11NW7%O2=M54EST11NW7%O3
+OS:=M54ENNT11NW7%O4=M54EST11NW7%O5=M54EST11NW7%O6=M54EST11)WIN(W1=F4B3%W2=F
+OS:4B3%W3=F4B3%W4=F4B3%W5=F4B3%W6=F4B3)ECN(R=Y%DF=Y%T=40%W=F507%O=M54ENNSNW
+OS:7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 32.357 days (since Mon Jun  1 10:25:09 2020)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 587/tcp)
+HOP RTT       ADDRESS
+1   111.36 ms 10.10.0.1
+2   111.45 ms 172.31.1.5
+
+NSE: Script Post-scanning.
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Initiating NSE at 18:59
+Completed NSE at 18:59, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 435.99 seconds
+           Raw packets sent: 70986 (3.134MB) | Rcvd: 98066 (9.858MB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.31.1.5"></address><hostnames></hostnames><ports><extraports count="65533" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.6p1 Ubuntu 4ubuntu0.3" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.29" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="32520" proto="udp"></portused><osmatch line="62708" name="Linux 3.1" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64455" name="Linux 3.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="61606" name="AXIS 210A or 211 Network Camera (Linux 2.6.17)" accuracy="94"><osclass type="webcam" osfamily="embedded" vendor="AXIS" osgen="" accuracy="94"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="93"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63962" name="Linux 3.16" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="1579" name="Adtran 424RG FTTH gateway" accuracy="92"><osclass type="specialized" osfamily="embedded" vendor="Adtran" osgen="" accuracy="92"></osclass></osmatch><osmatch line="55173" name="Linux 2.6.32" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="2.6.X" accuracy="92"></osclass></osmatch><osmatch line="58074" name="Linux 2.6.39 - 3.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="62728" name="Linux 3.1 - 3.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63314" name="Linux 3.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch></os><uptime lastboot="Mon Jun  1 10:25:09 2020" seconds="2795683"></uptime><tcpsequence index="260" values="49446527,3D2A26AD,DD122155,9E192302,91A4B963,C55637A4" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="A6A2A8E3,A6A2A94B,A6A2A9AB,A6A2AA10,A6A2AA7A,A6A2AAE0" class="1000HZ"></tcptssequence><trace port="587" proto="tcp"><hop rtt="111.36" host="" ipaddr="10.10.0.1" ttl="1"></hop><hop rtt="111.45" host="" ipaddr="172.31.1.5" ttl="2"></hop></trace></host><runstats><finished timestr="Fri Jul  3 18:59:52 2020" time="1593795592"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
