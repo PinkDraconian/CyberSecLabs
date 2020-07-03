@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1593764592" profile_name="Intense scan, all TCP ports" xmloutputversion="1.04" scanner="nmap" version="7.80" startstr="Fri Jul  3 10:23:12 2020" args="nmap -p 1-65535 -T4 -A -v 172.31.1.15"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-03 10:23 CEST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 10:23
+Completed NSE at 10:23, 0.00s elapsed
+Initiating NSE at 10:23
+Completed NSE at 10:23, 0.00s elapsed
+Initiating NSE at 10:23
+Completed NSE at 10:23, 0.00s elapsed
+Initiating Ping Scan at 10:23
+Scanning 172.31.1.15 [4 ports]
+Completed Ping Scan at 10:23, 0.18s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 10:23
+Completed Parallel DNS resolution of 1 host. at 10:23, 0.03s elapsed
+Initiating SYN Stealth Scan at 10:23
+Scanning 172.31.1.15 [65535 ports]
+Discovered open port 445/tcp on 172.31.1.15
+Discovered open port 80/tcp on 172.31.1.15
+Discovered open port 139/tcp on 172.31.1.15
+Discovered open port 135/tcp on 172.31.1.15
+Discovered open port 443/tcp on 172.31.1.15
+Increasing send delay for 172.31.1.15 from 0 to 5 due to 1255 out of 3137 dropped probes since last increase.
+SYN Stealth Scan Timing: About 6.04% done; ETC: 10:31 (0:08:02 remaining)
+SYN Stealth Scan Timing: About 12.45% done; ETC: 10:31 (0:07:09 remaining)
+Discovered open port 8581/tcp on 172.31.1.15
+Discovered open port 49152/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 18.69% done; ETC: 10:31 (0:06:36 remaining)
+SYN Stealth Scan Timing: About 24.60% done; ETC: 10:31 (0:06:11 remaining)
+Discovered open port 49163/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 30.87% done; ETC: 10:31 (0:05:38 remaining)
+Discovered open port 49192/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 37.15% done; ETC: 10:31 (0:05:06 remaining)
+Discovered open port 6096/tcp on 172.31.1.15
+Discovered open port 6095/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 43.14% done; ETC: 10:31 (0:04:38 remaining)
+SYN Stealth Scan Timing: About 49.39% done; ETC: 10:31 (0:04:07 remaining)
+Discovered open port 49155/tcp on 172.31.1.15
+Discovered open port 47001/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 55.36% done; ETC: 10:31 (0:03:41 remaining)
+Discovered open port 20007/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 61.50% done; ETC: 10:31 (0:03:10 remaining)
+Discovered open port 8018/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 67.77% done; ETC: 10:31 (0:02:39 remaining)
+SYN Stealth Scan Timing: About 73.48% done; ETC: 10:31 (0:02:11 remaining)
+Discovered open port 49154/tcp on 172.31.1.15
+Discovered open port 49193/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 79.84% done; ETC: 10:31 (0:01:39 remaining)
+Discovered open port 7993/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 85.99% done; ETC: 10:31 (0:01:09 remaining)
+Discovered open port 5500/tcp on 172.31.1.15
+Discovered open port 20008/tcp on 172.31.1.15
+SYN Stealth Scan Timing: About 91.83% done; ETC: 10:31 (0:00:40 remaining)
+Discovered open port 5985/tcp on 172.31.1.15
+Discovered open port 49153/tcp on 172.31.1.15
+Discovered open port 8500/tcp on 172.31.1.15
+Completed SYN Stealth Scan at 10:31, 500.06s elapsed (65535 total ports)
+Initiating Service scan at 10:31
+Scanning 23 services on 172.31.1.15
+Service scan Timing: About 56.52% done; ETC: 10:32 (0:00:32 remaining)
+Completed Service scan at 10:33, 137.55s elapsed (23 services on 1 host)
+Initiating OS detection (try #1) against 172.31.1.15
+Retrying OS detection (try #2) against 172.31.1.15
+Retrying OS detection (try #3) against 172.31.1.15
+Retrying OS detection (try #4) against 172.31.1.15
+Retrying OS detection (try #5) against 172.31.1.15
+Initiating Traceroute at 10:34
+Completed Traceroute at 10:34, 0.12s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 10:34
+Completed Parallel DNS resolution of 2 hosts. at 10:34, 0.03s elapsed
+NSE: Script scanning 172.31.1.15.
+Initiating NSE at 10:34
+Completed NSE at 10:34, 19.29s elapsed
+Initiating NSE at 10:34
+Completed NSE at 10:34, 1.44s elapsed
+Initiating NSE at 10:34
+Completed NSE at 10:34, 0.00s elapsed
+Nmap scan report for 172.31.1.15
+Host is up (0.11s latency).
+Not shown: 65512 closed ports
+PORT      STATE SERVICE      VERSION
+80/tcp    open  http         Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.2.30)
+|_http-favicon: Unknown favicon MD5: 56F7C04657931F2D0B79371B2D6E9820
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.30
+| http-title: Welcome to XAMPP
+|_Requested resource was http://172.31.1.15/dashboard/
+|_https-redirect: ERROR: Script execution failed (use -d to debug)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+443/tcp   open  ssl/http     Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.2.30)
+|_http-favicon: Unknown favicon MD5: 6EB4A43CB64C97F76562AF703893C8FD
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.2.30
+| http-title: Welcome to XAMPP
+|_Requested resource was https://172.31.1.15/dashboard/
+| ssl-cert: Subject: commonName=localhost
+| Issuer: commonName=localhost
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2009-11-10T23:48:47
+| Not valid after:  2019-11-08T23:48:47
+| MD5:   a0a4 4cc9 9e84 b26f 9e63 9f9e d229 dee0
+|_SHA-1: b023 8c54 7a90 5bfa 119c 4e8b acca eacf 3649 1ff6
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+445/tcp   open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+5500/tcp  open  http         Jetty 9.3.6.v20151106
+| http-methods: 
+|_  Supported Methods: GET
+|_http-server-header: Jetty(9.3.6.v20151106)
+|_http-title: Error 404 
+5985/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+6095/tcp  open  unknown
+| fingerprint-strings: 
+|   GetRequest, HTTPOptions: 
+|_    JNB70*
+6096/tcp  open  unknown
+7993/tcp  open  unknown
+8018/tcp  open  unknown
+8500/tcp  open  http         Samsung AllShare httpd
+| http-methods: 
+|_  Supported Methods: OPTIONS GET HEAD POST
+|_http-title: 404
+8581/tcp  open  unknown
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions, RTSPRequest, SIPOptions: 
+|     HTTP/1.1 403 Forbidden
+|     Content-Length: true
+|_    Forbidden
+20007/tcp open  unknown
+20008/tcp open  unknown
+47001/tcp open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49163/tcp open  msrpc        Microsoft Windows RPC
+49192/tcp open  msrpc        Microsoft Windows RPC
+49193/tcp open  msrpc        Microsoft Windows RPC
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port6095-TCP:V=7.80%I=7%D=7/3%Time=5EFEECF6%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,C99,"JNB70\*\x04\0\0\xff\xf0\0\x01\n\x004\0\0\0\0I\0n\0v\0a\0l\
+SF:0i\0d\0\x20\0r\0e\0q\0u\0e\0s\0t\0:\0\x20\0\x20\0i\0n\0v\0a\0l\0i\0d\0\
+SF:x20\0j\0n\0b\0b\0i\0n\0a\0r\0y\0\x20\0m\0e\0s\0s\0a\0g\0e\0\x20\0p\0r\0
+SF:e\0a\0m\0b\0l\0e\n\0\xd8\x01\0\0\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\0g\0e\0
+SF:\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r\0y\0\.
+SF:\0B\0i\0n\0a\0r\0y\0E\0x\0c\0e\0p\0t\0i\0o\0n\0:\0\x20\0i\0n\0v\0a\0l\0
+SF:i\0d\0\x20\0j\0n\0b\0b\0i\0n\0a\0r\0y\0\x20\0m\0e\0s\0s\0a\0g\0e\0\x20\
+SF:0p\0r\0e\0a\0m\0b\0l\0e\0\r\0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0
+SF:r\0i\0d\0g\0e\0\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0t\0r\0e\0a\0m\0s\0\.\0D\
+SF:0o\0t\0N\0e\0t\0D\0a\0t\0a\0I\0n\0p\0u\0t\0S\0t\0r\0e\0a\0m\0\.\0r\0e\0
+SF:a\0d\0P\0r\0e\0a\0m\0b\0l\0e\0\(\0U\0n\0k\0n\0o\0w\0n\0\x20\0S\0o\0u\0r
+SF:\0c\0e\0\)\0\r\0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\0g\0e
+SF:\0\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r\0y\0
+SF:\.\0B\0i\0n\0a\0r\0y\0R\0e\0q\0u\0e\0s\0t\0H\0a\0n\0d\0l\0e\0r\0\.\0h\0
+SF:a\0n\0d\0l\0e\0R\0e\0q\0u\0e\0s\0t\0\(\0U\0n\0k\0n\0o\0w\0n\0\x20\0S\0o
+SF:\0u\0r\0c\0e\0\)\0\r\0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d
+SF:\0g\0e\0\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0
+SF:r\0y\0\.\0B\0i\0n\0a\0r\0y\0W\0o\0r\0k\0e\0r\0\.\0h\0a\0n\0d\0l\0e\0C\0
+SF:l\0i\0e\0n\0t\0\(\0U\0n\0k\0n\0o\0w\0n\0\x20\0S\0o\0u\0r\0c\0e\0\)\0\r\
+SF:0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\0g\0e\0\.\0j\0n\0b\0
+SF:c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r\0y\0\.\0")%r(HTTPOp
+SF:tions,10CC,"JNB70\*\x04\0\0\xff\xf0\0\x01\n\x004\0\0\0\0I\0n\0v\0a\0l\0
+SF:i\0d\0\x20\0r\0e\0q\0u\0e\0s\0t\0:\0\x20\0\x20\0i\0n\0v\0a\0l\0i\0d\0\x
+SF:20\0j\0n\0b\0b\0i\0n\0a\0r\0y\0\x20\0m\0e\0s\0s\0a\0g\0e\0\x20\0p\0r\0e
+SF:\0a\0m\0b\0l\0e\n\0\xd8\x01\0\0\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\0g\0e\0\
+SF:.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r\0y\0\.\
+SF:0B\0i\0n\0a\0r\0y\0E\0x\0c\0e\0p\0t\0i\0o\0n\0:\0\x20\0i\0n\0v\0a\0l\0i
+SF:\0d\0\x20\0j\0n\0b\0b\0i\0n\0a\0r\0y\0\x20\0m\0e\0s\0s\0a\0g\0e\0\x20\0
+SF:p\0r\0e\0a\0m\0b\0l\0e\0\r\0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r
+SF:\0i\0d\0g\0e\0\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0t\0r\0e\0a\0m\0s\0\.\0D\0
+SF:o\0t\0N\0e\0t\0D\0a\0t\0a\0I\0n\0p\0u\0t\0S\0t\0r\0e\0a\0m\0\.\0r\0e\0a
+SF:\0d\0P\0r\0e\0a\0m\0b\0l\0e\0\(\0U\0n\0k\0n\0o\0w\0n\0\x20\0S\0o\0u\0r\
+SF:0c\0e\0\)\0\r\0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\0g\0e\
+SF:0\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r\0y\0\
+SF:.\0B\0i\0n\0a\0r\0y\0R\0e\0q\0u\0e\0s\0t\0H\0a\0n\0d\0l\0e\0r\0\.\0h\0a
+SF:\0n\0d\0l\0e\0R\0e\0q\0u\0e\0s\0t\0\(\0U\0n\0k\0n\0o\0w\0n\0\x20\0S\0o\
+SF:0u\0r\0c\0e\0\)\0\r\0\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\
+SF:0g\0e\0\.\0j\0n\0b\0c\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r
+SF:\0y\0\.\0B\0i\0n\0a\0r\0y\0W\0o\0r\0k\0e\0r\0\.\0h\0a\0n\0d\0l\0e\0C\0l
+SF:\0i\0e\0n\0t\0\(\0U\0n\0k\0n\0o\0w\0n\0\x20\0S\0o\0u\0r\0c\0e\0\)\0\r\0
+SF:\n\0\t\0a\0t\0\x20\0c\0o\0m\0\.\0j\0n\0b\0r\0i\0d\0g\0e\0\.\0j\0n\0b\0c
+SF:\0o\0r\0e\0\.\0s\0e\0r\0v\0e\0r\0\.\0b\0i\0n\0a\0r\0y\0\.\0");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8581-TCP:V=7.80%I=7%D=7/3%Time=5EFEECF2%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,3D,"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x20true\r\
+SF:n\r\n403\x20Forbidden")%r(HTTPOptions,3D,"HTTP/1\.1\x20403\x20Forbidden
+SF:\r\nContent-Length:\x20true\r\n\r\n403\x20Forbidden")%r(RTSPRequest,3D,
+SF:"HTTP/1\.1\x20403\x20Forbidden\r\nContent-Length:\x20true\r\n\r\n403\x2
+SF:0Forbidden")%r(FourOhFourRequest,3D,"HTTP/1\.1\x20403\x20Forbidden\r\nC
+SF:ontent-Length:\x20true\r\n\r\n403\x20Forbidden")%r(SIPOptions,3D,"HTTP/
+SF:1\.1\x20403\x20Forbidden\r\nContent-Length:\x20true\r\n\r\n403\x20Forbi
+SF:dden");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=7/3%OT=80%CT=1%CU=37698%PV=Y%DS=2%DC=T%G=Y%TM=5EFEED91
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10F%TI=I%CI=RD%TS=7)OPS(O1=M
+OS:54ENW8ST11%O2=M54ENW8ST11%O3=M54ENW8NNT11%O4=M54ENW8ST11%O5=M54ENW8ST11%
+OS:O6=M54EST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%
+OS:DF=Y%T=80%W=2000%O=M54ENW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S
+OS:=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=
+OS:Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=
+OS:R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T
+OS:=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)
+
+Uptime guess: 0.009 days (since Fri Jul  3 10:22:05 2020)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=263 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 3s, deviation: 0s, median: 2s
+| nbstat: NetBIOS name: COLD, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 06:e3:89:ea:01:ea (unknown)
+| Names:
+|   COLD&lt;00&gt;             Flags: &lt;unique&gt;&lt;active&gt;
+|   WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;
+|_  COLD&lt;20&gt;             Flags: &lt;unique&gt;&lt;active&gt;
+| smb-security-mode: 
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-07-03T08:34:09
+|_  start_date: 2020-07-03T08:22:44
+
+TRACEROUTE (using port 1025/tcp)
+HOP RTT       ADDRESS
+1   107.81 ms 10.10.0.1
+2   109.44 ms 172.31.1.15
+
+NSE: Script Post-scanning.
+Initiating NSE at 10:34
+Completed NSE at 10:34, 0.00s elapsed
+Initiating NSE at 10:34
+Completed NSE at 10:34, 0.00s elapsed
+Initiating NSE at 10:34
+Completed NSE at 10:34, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 673.08 seconds
+           Raw packets sent: 69060 (3.044MB) | Rcvd: 68748 (2.982MB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.31.1.15"></address><hostnames></hostnames><ports><extraports count="65512" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Apache httpd" name="http" extrainfo="(Win64) OpenSSL/1.1.1g PHP/7.2.30" version="2.4.43" conf="10" method="probed"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Apache httpd" name="http" extrainfo="(Win64) OpenSSL/1.1.1g PHP/7.2.30" version="2.4.43" conf="10" method="probed"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" method="probed" conf="10" name="microsoft-ds"></service></port><port protocol="tcp" portid="5500"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Jetty" version="9.3.6.v20151106" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="5985"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="6095"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="6096"><state reason="syn-ack" state="open" reason_ttl="127"></state><service></service></port><port protocol="tcp" portid="7993"><state reason="syn-ack" state="open" reason_ttl="127"></state><service></service></port><port protocol="tcp" portid="8018"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="8500"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Samsung AllShare httpd" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="8581"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="20007"><state reason="syn-ack" state="open" reason_ttl="127"></state><service></service></port><port protocol="tcp" portid="20008"><state reason="syn-ack" state="open" reason_ttl="127"></state><service></service></port><port protocol="tcp" portid="47001"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="49152"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49153"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49155"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49163"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49192"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49193"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="37698" proto="udp"></portused><osmatch line="77414" name="Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="79616" name="Microsoft Windows Vista SP1" accuracy="95"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="95"></osclass></osmatch><osmatch line="75036" name="Microsoft Windows Server 2012" accuracy="94"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="94"></osclass></osmatch><osmatch line="75279" name="Microsoft Windows Server 2012 R2" accuracy="94"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="94"></osclass></osmatch><osmatch line="75657" name="Microsoft Windows Server 2012 R2 Update 1" accuracy="94"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="94"></osclass></osmatch><osmatch line="74976" name="Microsoft Windows Server 2008 SP2 Datacenter Version" accuracy="94"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="94"></osclass></osmatch><osmatch line="75164" name="Microsoft Windows Server 2012 or Server 2012 R2" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="93"></osclass></osmatch><osmatch line="76720" name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="93"></osclass></osmatch><osmatch line="77371" name="Microsoft Windows 7 Ultimate Beta (build 7000)" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="93"></osclass></osmatch><osmatch line="79732" name="Microsoft Windows Vista SP2" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="93"></osclass></osmatch></os><uptime lastboot="Fri Jul  3 10:22:05 2020" seconds="740"></uptime><tcpsequence index="263" values="E0878840,2B481C20,9AB0749B,8A55FA94,9220E86,83072DAE" difficulty="Good luck!"></tcpsequence><ipidsequence values="59C4,59C5,59C6,59C7,59C8,59C9" class="Incremental"></ipidsequence><tcptssequence values="1182E,11838,11842,1184C,11856,11860" class="100HZ"></tcptssequence><trace port="1025" proto="tcp"><hop rtt="107.81" host="" ipaddr="10.10.0.1" ttl="1"></hop><hop rtt="109.44" host="" ipaddr="172.31.1.15" ttl="2"></hop></trace></host><runstats><finished timestr="Fri Jul  3 10:34:25 2020" time="1593765265"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
