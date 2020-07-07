@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1594109240" profile_name="Intense scan, all TCP ports" xmloutputversion="1.04" scanner="nmap" version="7.80" startstr="Tue Jul  7 10:07:20 2020" args="nmap -p 1-65535 -T4 -A -v 172.31.1.16"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-07 10:07 CEST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 10:07
+Completed NSE at 10:07, 0.00s elapsed
+Initiating NSE at 10:07
+Completed NSE at 10:07, 0.00s elapsed
+Initiating NSE at 10:07
+Completed NSE at 10:07, 0.00s elapsed
+Initiating Ping Scan at 10:07
+Scanning 172.31.1.16 [4 ports]
+Completed Ping Scan at 10:07, 0.16s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 10:07
+Completed Parallel DNS resolution of 1 host. at 10:07, 0.03s elapsed
+Initiating SYN Stealth Scan at 10:07
+Scanning 172.31.1.16 [65535 ports]
+Discovered open port 445/tcp on 172.31.1.16
+Discovered open port 3389/tcp on 172.31.1.16
+Discovered open port 139/tcp on 172.31.1.16
+Discovered open port 135/tcp on 172.31.1.16
+Discovered open port 80/tcp on 172.31.1.16
+SYN Stealth Scan Timing: About 16.05% done; ETC: 10:10 (0:02:42 remaining)
+SYN Stealth Scan Timing: About 39.49% done; ETC: 10:09 (0:01:33 remaining)
+SYN Stealth Scan Timing: About 39.66% done; ETC: 10:11 (0:02:18 remaining)
+Increasing send delay for 172.31.1.16 from 0 to 5 due to 30 out of 74 dropped probes since last increase.
+Increasing send delay for 172.31.1.16 from 5 to 10 due to 11 out of 11 dropped probes since last increase.
+SYN Stealth Scan Timing: About 39.83% done; ETC: 10:12 (0:03:03 remaining)
+SYN Stealth Scan Timing: About 41.84% done; ETC: 10:13 (0:03:30 remaining)
+Discovered open port 49164/tcp on 172.31.1.16
+SYN Stealth Scan Timing: About 44.02% done; ETC: 10:14 (0:03:50 remaining)
+SYN Stealth Scan Timing: About 47.02% done; ETC: 10:15 (0:04:11 remaining)
+SYN Stealth Scan Timing: About 64.82% done; ETC: 10:19 (0:04:18 remaining)
+SYN Stealth Scan Timing: About 72.52% done; ETC: 10:20 (0:03:41 remaining)
+SYN Stealth Scan Timing: About 78.83% done; ETC: 10:21 (0:03:00 remaining)
+Discovered open port 49155/tcp on 172.31.1.16
+SYN Stealth Scan Timing: About 84.66% done; ETC: 10:22 (0:02:16 remaining)
+Discovered open port 49154/tcp on 172.31.1.16
+SYN Stealth Scan Timing: About 90.23% done; ETC: 10:22 (0:01:30 remaining)
+SYN Stealth Scan Timing: About 95.55% done; ETC: 10:23 (0:00:42 remaining)
+Discovered open port 5985/tcp on 172.31.1.16
+Completed SYN Stealth Scan at 10:23, 965.44s elapsed (65535 total ports)
+Initiating Service scan at 10:23
+Scanning 9 services on 172.31.1.16
+Completed Service scan at 10:24, 91.55s elapsed (9 services on 1 host)
+Initiating OS detection (try #1) against 172.31.1.16
+Retrying OS detection (try #2) against 172.31.1.16
+Initiating Traceroute at 10:25
+Completed Traceroute at 10:25, 0.12s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 10:25
+Completed Parallel DNS resolution of 2 hosts. at 10:25, 0.21s elapsed
+NSE: Script scanning 172.31.1.16.
+Initiating NSE at 10:25
+Completed NSE at 10:25, 40.13s elapsed
+Initiating NSE at 10:25
+Completed NSE at 10:25, 2.95s elapsed
+Initiating NSE at 10:25
+Completed NSE at 10:25, 0.00s elapsed
+Nmap scan report for 172.31.1.16
+Host is up (0.11s latency).
+Not shown: 65526 filtered ports
+PORT      STATE SERVICE            VERSION
+80/tcp    open  http               Microsoft IIS httpd 8.5
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/8.5
+|_http-title: IIS Windows Server
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info: 
+|   Target_Name: ENGINE
+|   NetBIOS_Domain_Name: ENGINE
+|   NetBIOS_Computer_Name: ENGINE
+|   DNS_Domain_Name: Engine
+|   DNS_Computer_Name: Engine
+|   Product_Version: 6.3.9600
+|_  System_Time: 2020-07-07T08:25:09+00:00
+| ssl-cert: Subject: commonName=Engine
+| Issuer: commonName=Engine
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-04-30T21:30:10
+| Not valid after:  2020-10-30T21:30:10
+| MD5:   8205 f1f4 3837 abb5 6139 a069 c8ac ee2a
+|_SHA-1: 86ce 2d5e eb76 f33a 2e49 1f80 b586 c119 ef2d a8b7
+5985/tcp  open  http               Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49164/tcp open  msrpc              Microsoft Windows RPC
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): Microsoft Windows 2012 (89%)
+OS CPE: cpe:/o:microsoft:windows_server_2012
+Aggressive OS guesses: Microsoft Windows Server 2012 (89%), Microsoft Windows Server 2012 or Windows Server 2012 R2 (89%), Microsoft Windows Server 2012 R2 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.014 days (since Tue Jul  7 10:05:22 2020)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 3s, deviation: 0s, median: 3s
+| nbstat: NetBIOS name: ENGINE, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 06:f2:17:43:37:d2 (unknown)
+| Names:
+|   ENGINE&lt;00&gt;           Flags: &lt;unique&gt;&lt;active&gt;
+|   WORKGROUP&lt;00&gt;        Flags: &lt;group&gt;&lt;active&gt;
+|_  ENGINE&lt;20&gt;           Flags: &lt;unique&gt;&lt;active&gt;
+|_smb-os-discovery: ERROR: Script execution failed (use -d to debug)
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2020-07-07T08:25:08
+|_  start_date: 2020-07-07T08:05:49
+
+TRACEROUTE (using port 445/tcp)
+HOP RTT       ADDRESS
+1   114.18 ms 10.10.0.1
+2   116.31 ms 172.31.1.16
+
+NSE: Script Post-scanning.
+Initiating NSE at 10:25
+Completed NSE at 10:25, 0.00s elapsed
+Initiating NSE at 10:25
+Completed NSE at 10:25, 0.00s elapsed
+Initiating NSE at 10:25
+Completed NSE at 10:25, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1106.75 seconds
+           Raw packets sent: 131861 (5.806MB) | Rcvd: 47941 (8.573MB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.31.1.16"></address><hostnames></hostnames><ports><extraports count="65526" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="8.5" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" method="probed" conf="10" name="microsoft-ds"></service></port><port protocol="tcp" portid="3389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ms-wbt-server"></service></port><port protocol="tcp" portid="5985"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49155"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49164"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="75072" name="Microsoft Windows Server 2012" accuracy="89"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="89"></osclass></osmatch><osmatch line="75205" name="Microsoft Windows Server 2012 or Windows Server 2012 R2" accuracy="89"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="89"></osclass></osmatch><osmatch line="75243" name="Microsoft Windows Server 2012 R2" accuracy="89"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="89"></osclass></osmatch></os><uptime lastboot="Tue Jul  7 10:05:22 2020" seconds="1225"></uptime><tcpsequence index="259" values="EF634F57,1276CFF8,B1E6EC5E,F5CCF714,63FD8F81,DBEA3DB5" difficulty="Good luck!"></tcpsequence><ipidsequence values="3D4C,3D4D,3D4E,3D4F,3D50,3D51" class="Incremental"></ipidsequence><tcptssequence values="1CD1A,1CD24,1CD2E,1CD39,1CD42,1CD4D" class="100HZ"></tcptssequence><trace port="445" proto="tcp"><hop rtt="114.18" host="" ipaddr="10.10.0.1" ttl="1"></hop><hop rtt="116.31" host="" ipaddr="172.31.1.16" ttl="2"></hop></trace></host><runstats><finished timestr="Tue Jul  7 10:25:47 2020" time="1594110347"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
