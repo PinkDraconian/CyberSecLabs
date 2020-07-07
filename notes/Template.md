@@ -1,7 +1,7 @@
 ---
 title: Template
 created: '2020-07-06T14:09:27.984Z'
-modified: '2020-07-06T14:10:05.411Z'
+modified: '2020-07-07T12:13:05.999Z'
 ---
 
 # Template
@@ -11,6 +11,15 @@ modified: '2020-07-06T14:10:05.411Z'
 ### Writeup
 
 ### Commands
+<details>
+<summary></summary>
+
+- ``
+```
+
+```
+</details>
+
 <details>
 <summary></summary>
 
