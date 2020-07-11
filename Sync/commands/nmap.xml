@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1594151061" profile_name="Intense scan, all TCP ports" xmloutputversion="1.04" scanner="nmap" version="7.80" startstr="Tue Jul  7 21:44:21 2020" args="nmap -p 1-65535 -T4 -A -v 172.31.3.6"><scaninfo services="1-65535" protocol="tcp" numservices="65535" type="syn"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.80 ( https://nmap.org ) at 2020-07-07 21:44 CEST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 21:44
+Completed NSE at 21:44, 0.00s elapsed
+Initiating NSE at 21:44
+Completed NSE at 21:44, 0.00s elapsed
+Initiating NSE at 21:44
+Completed NSE at 21:44, 0.00s elapsed
+Initiating Ping Scan at 21:44
+Scanning 172.31.3.6 [4 ports]
+Completed Ping Scan at 21:44, 0.15s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 21:44
+Completed Parallel DNS resolution of 1 host. at 21:44, 0.17s elapsed
+Initiating SYN Stealth Scan at 21:44
+Scanning 172.31.3.6 [65535 ports]
+Discovered open port 445/tcp on 172.31.3.6
+Discovered open port 53/tcp on 172.31.3.6
+Discovered open port 3389/tcp on 172.31.3.6
+Discovered open port 139/tcp on 172.31.3.6
+Discovered open port 135/tcp on 172.31.3.6
+Discovered open port 49670/tcp on 172.31.3.6
+Increasing send delay for 172.31.3.6 from 0 to 5 due to 598 out of 1494 dropped probes since last increase.
+Discovered open port 88/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 6.73% done; ETC: 21:52 (0:07:10 remaining)
+Discovered open port 636/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 13.85% done; ETC: 21:51 (0:06:19 remaining)
+SYN Stealth Scan Timing: About 20.39% done; ETC: 21:51 (0:05:55 remaining)
+SYN Stealth Scan Timing: About 26.88% done; ETC: 21:51 (0:05:29 remaining)
+SYN Stealth Scan Timing: About 33.81% done; ETC: 21:51 (0:04:56 remaining)
+Discovered open port 5985/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 40.78% done; ETC: 21:51 (0:04:23 remaining)
+Discovered open port 47001/tcp on 172.31.3.6
+Discovered open port 49664/tcp on 172.31.3.6
+Discovered open port 389/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 47.48% done; ETC: 21:51 (0:03:53 remaining)
+Discovered open port 49675/tcp on 172.31.3.6
+Discovered open port 49671/tcp on 172.31.3.6
+Discovered open port 49782/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 54.29% done; ETC: 21:51 (0:03:23 remaining)
+SYN Stealth Scan Timing: About 61.63% done; ETC: 21:51 (0:02:49 remaining)
+Discovered open port 49666/tcp on 172.31.3.6
+Discovered open port 3268/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 68.66% done; ETC: 21:52 (0:02:27 remaining)
+Discovered open port 49665/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 75.22% done; ETC: 21:52 (0:01:56 remaining)
+Discovered open port 49669/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 82.46% done; ETC: 21:52 (0:01:21 remaining)
+Discovered open port 9389/tcp on 172.31.3.6
+Discovered open port 3269/tcp on 172.31.3.6
+SYN Stealth Scan Timing: About 89.26% done; ETC: 21:52 (0:00:50 remaining)
+Discovered open port 49668/tcp on 172.31.3.6
+Discovered open port 49692/tcp on 172.31.3.6
+Discovered open port 49698/tcp on 172.31.3.6
+Discovered open port 593/tcp on 172.31.3.6
+Discovered open port 464/tcp on 172.31.3.6
+Completed SYN Stealth Scan at 21:52, 460.89s elapsed (65535 total ports)
+Initiating Service scan at 21:52
+Scanning 26 services on 172.31.3.6
+Service scan Timing: About 61.54% done; ETC: 21:53 (0:00:34 remaining)
+Completed Service scan at 21:54, 144.73s elapsed (26 services on 1 host)
+Initiating OS detection (try #1) against 172.31.3.6
+Retrying OS detection (try #2) against 172.31.3.6
+Retrying OS detection (try #3) against 172.31.3.6
+Retrying OS detection (try #4) against 172.31.3.6
+Retrying OS detection (try #5) against 172.31.3.6
+Initiating Traceroute at 21:54
+Completed Traceroute at 21:54, 0.11s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 21:54
+Completed Parallel DNS resolution of 2 hosts. at 21:54, 0.03s elapsed
+NSE: Script scanning 172.31.3.6.
+Initiating NSE at 21:54
+Completed NSE at 21:54, 15.59s elapsed
+Initiating NSE at 21:54
+Completed NSE at 21:56, 120.91s elapsed
+Initiating NSE at 21:56
+Completed NSE at 21:56, 0.00s elapsed
+Nmap scan report for 172.31.3.6
+Host is up (0.11s latency).
+Not shown: 65509 closed ports
+PORT      STATE SERVICE       VERSION
+53/tcp    open  domain?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+88/tcp    open  kerberos-sec  Microsoft Windows Kerberos (server time: 2020-07-07 19:52:14Z)
+135/tcp   open  msrpc         Microsoft Windows RPC
+139/tcp   open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp   open  ldap          Microsoft Windows Active Directory LDAP (Domain: sync.csl0., Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+3268/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: sync.csl, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ms-wbt-server Microsoft Terminal Services
+| rdp-ntlm-info: 
+|   Target_Name: SYNC0
+|   NetBIOS_Domain_Name: SYNC0
+|   NetBIOS_Computer_Name: SYNC
+|   DNS_Domain_Name: sync.csl
+|   DNS_Computer_Name: sync.sync.csl
+|   DNS_Tree_Name: sync.csl
+|   Product_Version: 10.0.17763
+|_  System_Time: 2020-07-07T19:54:46+00:00
+| ssl-cert: Subject: commonName=sync.sync.csl
+| Issuer: commonName=sync.sync.csl
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2020-06-15T13:23:36
+| Not valid after:  2020-12-15T13:23:36
+| MD5:   8fa8 7683 7058 c1af a621 a13c 7e27 e3f2
+|_SHA-1: 5edf b4e5 2185 0a3e 228b 3848 138e cf7c 614c 48da
+|_ssl-date: 2020-07-07T19:55:01+00:00; +4s from scanner time.
+5985/tcp  open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+9389/tcp  open  mc-nmf        .NET Message Framing
+47001/tcp open  http          Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49664/tcp open  msrpc         Microsoft Windows RPC
+49665/tcp open  msrpc         Microsoft Windows RPC
+49666/tcp open  msrpc         Microsoft Windows RPC
+49668/tcp open  msrpc         Microsoft Windows RPC
+49669/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+49670/tcp open  msrpc         Microsoft Windows RPC
+49671/tcp open  msrpc         Microsoft Windows RPC
+49675/tcp open  msrpc         Microsoft Windows RPC
+49692/tcp open  msrpc         Microsoft Windows RPC
+49698/tcp open  msrpc         Microsoft Windows RPC
+49782/tcp open  msrpc         Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.80%I=7%D=7/7%Time=5F04D26F%P=x86_64-pc-linux-gnu%r(DNSVe
+SF:rsionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\x
+SF:04bind\0\0\x10\0\x03");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=7/7%OT=53%CT=1%CU=39037%PV=Y%DS=2%DC=T%G=Y%TM=5F04D389
+OS:%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10B%TI=I%CI=RD%TS=U)OPS(O1=M
+OS:54ENW8NNS%O2=M54ENW8NNS%O3=M54ENW8%O4=M54ENW8NNS%O5=M54ENW8NNS%O6=M54ENN
+OS:S)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FF70)ECN(R=Y%DF=Y%T=80%
+OS:W=FFFF%O=M54ENW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=
+OS:Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=A
+OS:R%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=8
+OS:0%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%
+OS:Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=16
+OS:4%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=N)
+
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: SYNC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 3s, deviation: 0s, median: 3s
+| nbstat: NetBIOS name: SYNC, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 06:74:fe:d7:a1:36 (unknown)
+| Names:
+|   SYNC&lt;20&gt;             Flags: &lt;unique&gt;&lt;active&gt;
+|   SYNC&lt;00&gt;             Flags: &lt;unique&gt;&lt;active&gt;
+|   SYNC0&lt;00&gt;            Flags: &lt;group&gt;&lt;active&gt;
+|   SYNC0&lt;1c&gt;            Flags: &lt;group&gt;&lt;active&gt;
+|_  SYNC0&lt;1b&gt;            Flags: &lt;unique&gt;&lt;active&gt;
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2020-07-07T19:54:47
+|_  start_date: N/A
+
+TRACEROUTE (using port 199/tcp)
+HOP RTT       ADDRESS
+1   111.69 ms 10.10.0.1
+2   113.19 ms 172.31.3.6
+
+NSE: Script Post-scanning.
+Initiating NSE at 21:56
+Completed NSE at 21:56, 0.00s elapsed
+Initiating NSE at 21:56
+Completed NSE at 21:56, 0.00s elapsed
+Initiating NSE at 21:56
+Completed NSE at 21:56, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 756.82 seconds
+           Raw packets sent: 68825 (3.033MB) | Rcvd: 66550 (2.668MB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="172.31.3.6"></address><hostnames></hostnames><ports><extraports count="65509" state="closed"></extraports><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="domain"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Kerberos" extrainfo="server time: 2020-07-07 19:52:14Z" method="probed" conf="10" name="kerberos-sec"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: sync.csl0., Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="464"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="kpasswd5"></service></port><port protocol="tcp" portid="593"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="636"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="probed" conf="8" name="tcpwrapped"></service></port><port protocol="tcp" portid="3268"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: sync.csl, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="3269"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="probed" conf="8" name="tcpwrapped"></service></port><port protocol="tcp" portid="3389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Terminal Services" method="probed" conf="10" name="ms-wbt-server"></service></port><port protocol="tcp" portid="5985"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="9389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product=".NET Message Framing" method="probed" conf="10" name="mc-nmf"></service></port><port protocol="tcp" portid="47001"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="49664"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49665"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49666"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49668"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49669"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="49670"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49671"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49675"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49692"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49698"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49782"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port></ports><os><portused state="open" portid="53" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="39037" proto="udp"></portused><osmatch line="79652" name="Microsoft Windows Vista SP1" accuracy="92"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="92"></osclass></osmatch><osmatch line="78352" name="Microsoft Windows Longhorn" accuracy="91"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Longhorn" accuracy="91"></osclass></osmatch><osmatch line="75054" name="Microsoft Windows Server 2012" accuracy="91"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="91"></osclass></osmatch><osmatch line="77414" name="Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1" accuracy="90"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="90"></osclass></osmatch><osmatch line="69486" name="Microsoft Windows 10 1703" accuracy="89"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="10" accuracy="89"></osclass></osmatch><osmatch line="77491" name="Microsoft Windows 8" accuracy="89"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8" accuracy="89"></osclass></osmatch><osmatch line="75279" name="Microsoft Windows Server 2012 R2" accuracy="88"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="88"></osclass></osmatch><osmatch line="75621" name="Microsoft Windows Server 2012 R2 Update 1" accuracy="88"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="88"></osclass></osmatch><osmatch line="75783" name="Microsoft Windows Server 2016 build 10586 - 14393" accuracy="88"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2016" accuracy="88"></osclass></osmatch><osmatch line="74406" name="Microsoft Windows Server 2008 R2" accuracy="88"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="88"></osclass></osmatch></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="257" values="8B7FA9B,1DFA301A,CF75BE92,8E6967E3,E4C7B4CF,84D2020B" difficulty="Good luck!"></tcpsequence><ipidsequence values="DF14,DF15,DF16,DF17,DF18,DF19" class="Incremental"></ipidsequence><tcptssequence values="" class="none returned (unsupported)"></tcptssequence><trace port="199" proto="tcp"><hop rtt="111.69" host="" ipaddr="10.10.0.1" ttl="1"></hop><hop rtt="113.19" host="" ipaddr="172.31.3.6" ttl="2"></hop></trace></host><runstats><finished timestr="Tue Jul  7 21:56:57 2020" time="1594151817"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>
