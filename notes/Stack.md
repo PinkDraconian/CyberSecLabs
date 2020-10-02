@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Stack
 created: '2020-07-09T07:53:28.772Z'
-modified: '2020-07-09T07:54:02.891Z'
+modified: '2020-10-02T17:42:15.607Z'
 ---
 
 # Stack

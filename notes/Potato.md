@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Potato
 created: '2020-07-04T17:00:13.835Z'
-modified: '2020-07-05T13:26:10.252Z'
+modified: '2020-10-02T17:41:00.275Z'
 ---
 
 # Potato

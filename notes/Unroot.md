@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Unroot
 created: '2020-07-06T14:09:06.699Z'
-modified: '2020-07-06T14:27:35.377Z'
+modified: '2020-10-02T17:41:26.810Z'
 ---
 
 # Unroot

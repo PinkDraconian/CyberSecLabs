@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Lazy
 created: '2020-07-11T10:25:25.467Z'
-modified: '2020-07-11T10:33:22.484Z'
+modified: '2020-10-02T17:42:25.684Z'
 ---
 
 # Lazy

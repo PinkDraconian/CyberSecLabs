@@ -1,7 +1,8 @@
 ---
+tags: [_TEMPLATE]
 title: Template
 created: '2020-07-06T14:09:27.984Z'
-modified: '2020-07-13T14:53:07.977Z'
+modified: '2020-10-02T17:43:31.737Z'
 ---
 
 # Template

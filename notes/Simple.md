@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Simple
 created: '2020-07-16T08:12:44.271Z'
-modified: '2020-07-16T08:13:09.356Z'
+modified: '2020-10-02T17:42:59.177Z'
 ---
 
 # Simple

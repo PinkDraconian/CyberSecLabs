@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Eternal
 created: '2020-07-15T08:20:03.416Z'
-modified: '2020-07-15T08:20:27.712Z'
+modified: '2020-10-02T17:42:53.780Z'
 ---
 
 # Eternal

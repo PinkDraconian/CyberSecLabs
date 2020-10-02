@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Weak
 created: '2020-07-13T14:52:21.573Z'
-modified: '2020-07-13T15:24:04.279Z'
+modified: '2020-10-02T17:42:46.673Z'
 ---
 
 # Weak

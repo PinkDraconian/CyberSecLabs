@@ -1,7 +1,8 @@
 ---
+tags: [AD, Beginner, Video]
 title: Secret
 created: '2020-07-05T13:25:09.540Z'
-modified: '2020-07-05T14:04:29.878Z'
+modified: '2020-10-02T17:41:11.932Z'
 ---
 
 # Secret

@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Debug
 created: '2020-07-03T16:52:15.246Z'
-modified: '2020-07-03T17:26:16.994Z'
+modified: '2020-10-02T17:40:48.816Z'
 ---
 
 # Debug

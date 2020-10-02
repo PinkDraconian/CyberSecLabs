@@ -1,7 +1,8 @@
 ---
+tags: [Challenge, Linux, Video]
 title: Casino
 created: '2020-07-16T16:47:02.375Z'
-modified: '2020-07-16T20:00:53.147Z'
+modified: '2020-10-02T17:43:09.855Z'
 ---
 
 # Casino

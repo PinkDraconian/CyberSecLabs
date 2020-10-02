@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Red
 created: '2020-07-13T08:06:51.777Z'
-modified: '2020-07-13T08:52:16.829Z'
+modified: '2020-10-02T17:42:38.228Z'
 ---
 
 # Red

@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Outdated
 created: '2020-07-04T12:48:44.472Z'
-modified: '2020-07-04T13:14:32.629Z'
+modified: '2020-10-02T17:40:54.757Z'
 ---
 
 # Outdated

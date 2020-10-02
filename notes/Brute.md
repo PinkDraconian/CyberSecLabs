@@ -1,7 +1,8 @@
 ---
+tags: [AD, Challenge, Video]
 title: Brute
 created: '2020-10-01T16:49:24.034Z'
-modified: '2020-10-01T18:44:34.651Z'
+modified: '2020-10-02T17:43:24.127Z'
 ---
 
 # Brute

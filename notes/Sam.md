@@ -1,7 +1,8 @@
 ---
+tags: [AD, Beginner, Video]
 title: Sam
 created: '2020-07-06T18:26:53.207Z'
-modified: '2020-07-06T19:43:30.364Z'
+modified: '2020-10-02T17:41:42.719Z'
 ---
 
 # Sam

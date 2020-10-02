@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Linux, Video]
 title: Leakage
 created: '2020-07-07T12:12:46.764Z'
-modified: '2020-07-07T12:22:34.992Z'
+modified: '2020-10-02T17:41:54.210Z'
 ---
 
 # Leakage

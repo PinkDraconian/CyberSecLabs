@@ -1,8 +1,8 @@
 ---
-tags: [Challenge, Linux]
+tags: [Challenge, Linux, Video]
 title: Office
 created: '2020-05-26T12:25:46.534Z'
-modified: '2020-05-26T14:59:58.454Z'
+modified: '2020-10-02T17:40:21.502Z'
 ---
 
 # Office

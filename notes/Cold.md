@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Cold
 created: '2020-07-03T08:22:32.774Z'
-modified: '2020-07-03T10:20:02.094Z'
+modified: '2020-10-02T17:40:40.732Z'
 ---
 
 # Cold

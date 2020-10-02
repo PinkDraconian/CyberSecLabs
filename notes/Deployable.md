@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Deployable
 created: '2020-07-08T08:36:24.066Z'
-modified: '2020-07-08T08:48:17.110Z'
+modified: '2020-10-02T17:42:10.280Z'
 ---
 
 # Deployable

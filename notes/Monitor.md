@@ -1,7 +1,8 @@
 ---
+tags: [Beginner, Video, Windows]
 title: Monitor
 created: '2020-07-11T07:37:02.477Z'
-modified: '2020-07-11T08:16:13.141Z'
+modified: '2020-10-02T17:42:21.003Z'
 ---
 
 # Monitor

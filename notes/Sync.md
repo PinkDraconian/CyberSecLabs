@@ -1,7 +1,8 @@
 ---
+tags: [AD, Challenge]
 title: Sync
 created: '2020-07-07T17:53:55.480Z'
-modified: '2020-07-07T21:18:57.516Z'
+modified: '2020-10-02T17:42:03.060Z'
 ---
 
 # Sync
